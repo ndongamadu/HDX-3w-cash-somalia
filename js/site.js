@@ -3,7 +3,8 @@
 var config = {
     title:"Somalia Cash 3W",
     description:"CASH Sector Who is doing What, Where in Somalia Famine Response",
-    data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/138BdIVkk0VNTXKaaHsCdTrfaxjWlui8rXgnZ0vtQj4g/edit?usp=sharing&strip-headers=on",
+    // data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/138BdIVkk0VNTXKaaHsCdTrfaxjWlui8rXgnZ0vtQj4g/edit?usp=sharing&strip-headers=on",
+    data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/1E8mgMNLt6IeECH5u8ZG7HCbV_3q5Y-SQ2Y8xyKoomQs/edit?usp=sharing&strip-headers=on",
     whoFieldName:"#org",
     whatFieldName:"#sector",
     whereFieldName:"#adm2+code",
@@ -20,9 +21,9 @@ var config = {
 //geom is geojson file
 
 function generate3WComponent(config,data,geom){
-    
+
     var lookup = genLookup(geom,config);
-    
+
     $('#title').html(config.title);
     $('#description').html(config.description);
 
@@ -38,11 +39,11 @@ function generate3WComponent(config,data,geom){
     if(config.sum){
         var whoGroup = whoDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
         var whatGroup = whatDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
-        var whereGroup = whereDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });        
+        var whereGroup = whereDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
     } else {
         var whoGroup = whoDimension.group();
         var whatGroup = whatDimension.group();
-        var whereGroup = whereDimension.group(); 
+        var whereGroup = whereDimension.group();
     }
 
     var all = cf.groupAll();
@@ -79,7 +80,7 @@ function generate3WComponent(config,data,geom){
             .dimension(whereDimension)
             .group(whereGroup)
             .center([0,0])
-            .zoom(0)    
+            .zoom(0)
             .geojson(geom)
             .colors(['#CCCCCC', config.color])
             .colorDomain([0, 1])
@@ -89,7 +90,7 @@ function generate3WComponent(config,data,geom){
                 } else {
                     return 0;
                 }
-            })           
+            })
             .featureKeyAccessor(function(feature){
                 return feature.properties[config.joinAttribute];
             }).popup(function(d){
@@ -98,7 +99,7 @@ function generate3WComponent(config,data,geom){
             .renderPopup(true);
 
     dc.renderAll();
-    
+
     var map = whereChart.map();
 
     zoomToGeom(geom);
@@ -108,11 +109,11 @@ function generate3WComponent(config,data,geom){
     } else {
         var axisText = 'Activities';
     }
-    
-    
+
+
 
     var g = d3.selectAll('#hdx-3W-who').select('svg').append('g');
-    
+
     g.append('text')
         .attr('class', 'x-axis-label')
         .attr('text-anchor', 'middle')
@@ -121,7 +122,7 @@ function generate3WComponent(config,data,geom){
         .text(axisText);
 
     var g = d3.selectAll('#hdx-3W-what').select('svg').append('g');
-    
+
     g.append('text')
         .attr('class', 'x-axis-label')
         .attr('text-anchor', 'middle')
@@ -133,7 +134,7 @@ function generate3WComponent(config,data,geom){
         var bounds = d3.geo.bounds(geom);
         map.fitBounds([[bounds[0][1],bounds[0][0]],[bounds[1][1],bounds[1][0]]]);
     }
-    
+
     function genLookup(geojson,config){
         var lookup = {};
         geojson.features.forEach(function(e){
@@ -173,17 +174,17 @@ function hxlProxyToJSON(input,headers){
 
 //load 3W data
 
-var dataCall = $.ajax({ 
-    type: 'GET', 
-    url: config.data, 
+var dataCall = $.ajax({
+    type: 'GET',
+    url: config.data,
     dataType: 'json',
 });
 
 //load geometry
 
-var geomCall = $.ajax({ 
-    type: 'GET', 
-    url: config.geo, 
+var geomCall = $.ajax({
+    type: 'GET',
+    url: config.geo,
     dataType: 'json',
 });
 
@@ -193,7 +194,7 @@ $.when(dataCall, geomCall).then(function(dataArgs, geomArgs){
     var data = hxlProxyToJSON(dataArgs[0]);
     var geom = geomArgs[0];
     geom.features.forEach(function(e){
-        e.properties[config.joinAttribute] = String(e.properties[config.joinAttribute]); 
+        e.properties[config.joinAttribute] = String(e.properties[config.joinAttribute]);
     });
     generate3WComponent(config,data,geom);
 });

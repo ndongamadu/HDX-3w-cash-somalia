@@ -1,0 +1,940 @@
+,Region Name,District,HR_info_district_name,REGN_NO,DIST_NO
+0,Bay,Baidoa,Baidoa,24.0,2401.0
+1,Bay,Baidoa,Baidoa,24.0,2401.0
+2,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+3,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+4,Bay,Baidoa,Baidoa,24.0,2401.0
+5,Bay,Baidoa,Baidoa,24.0,2401.0
+6,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+7,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+8,Bay,Diinsor,Diinsoor,24.0,2403.0
+9,Middle Juba,Sakow,Saakow,27.0,2703.0
+10,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+11,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+12,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+13,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+14,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+15,Bay,Baidoa,Baidoa,24.0,2401.0
+16,Gedo,Bardera,Baardheere,26.0,2601.0
+17,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+18,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+19,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+20,Bay,Diinsor,Diinsoor,24.0,2403.0
+21,Gedo,Dolow,Doolow,26.0,2603.0
+22,Bakool,El Barde,Ceel Barde,25.0,2501.0
+23,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+24,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+25,Bakool,Hudur,Xudur,25.0,2502.0
+26,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+27,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+28,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+29,Gedo,Luuq,Luuq,26.0,2606.0
+30,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+31,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+32,Bakool,Waajid,Waajid,25.0,2505.0
+33,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+34,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+35,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+36,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+37,Gedo,Dolow,Doolow,26.0,2603.0
+38,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+39,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+40,Mudug,Galdogob,Galdogob,18.0,1802.0
+41,Mudug,Hobyo,Hobyo,18.0,1804.0
+42,Mudug,Jariiban,Jariiban,18.0,1805.0
+43,Gedo,Luuq,Luuq,26.0,2606.0
+44,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+45,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+46,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+47,Mudug,Galdogob,Galdogob,18.0,1802.0
+48,Mudug,Hobyo,Hobyo,18.0,1804.0
+49,Mudug,Jariiban,Jariiban,18.0,1805.0
+50,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+51,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+52,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+53,Mudug,Galdogob,Galdogob,18.0,1802.0
+54,Mudug,Hobyo,Hobyo,18.0,1804.0
+55,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+56,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+57,Gedo,Dolow,Doolow,26.0,2603.0
+58,Gedo,Luuq,Luuq,26.0,2606.0
+59,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+60,Mudug,Galdogob,Galdogob,18.0,1802.0
+61,Mudug,Hobyo,Hobyo,18.0,1804.0
+62,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+63,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+64,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+65,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+66,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+67,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+68,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+69,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+70,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+71,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+72,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+73,Sool,Lasanod,Laas Caanood,14.0,1403.0
+74,Sool,Taleh,Taleex,14.0,1404.0
+75,sool,Xudun,Xudun,14.0,1402.0
+76,Gedo,Dolow,Doolow,26.0,2603.0
+77,Gedo,Luuq,Luuq,26.0,2606.0
+78,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+79,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+80,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+81,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+82,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+83,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+84,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+85,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+86,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+87,Sool,Aynabo,Caynabo,14.0,1401.0
+88,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+89,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+90,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+91,Mudug,Galdogob,Galdogob,18.0,1802.0
+92,Mudug,Hobyo,Hobyo,18.0,1804.0
+93,Mudug,Jariiban,Jariiban,18.0,1805.0
+94,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+95,Sool,Lasanod,Laas Caanood,14.0,1403.0
+96,Sool,Taleh,Taleex,14.0,1404.0
+97,sool,Xudun,Xudun,14.0,1402.0
+98,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+99,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+100,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+101,Mudug,Galdogob,Galdogob,18.0,1802.0
+102,Mudug,Hobyo,Hobyo,18.0,1804.0
+103,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+104,Middle Shebelle,Adale,Cadale,21.0,2004.0
+105,Bari,Alula,Caluula,16.0,1601.0
+106,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+107,Bari,Bossaso,Bossaso,16.0,1603.0
+108,Nugaal,Burtinle,Burtinle,17.0,1701.0
+109,Nugaal,Eyl,Eyl,17.0,1702.0
+110,Bari,Qardho,Qardho,16.0,1604.0
+111,Nugaal,Garowe,Garowe,17.0,1703.0
+112,Bari,Iskushuban,Iskushuban,16.0,1605.0
+113,,Kandala,Qandala,16.0,1605.0
+114,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+115,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+116,Galgaduud,Adado,Cadaado,19.0,1902.0
+117,Bari,Alula,Caluula,16.0,1601.0
+118,Awdal,Baki,Baki,11.0,1101.0
+119,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+120,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+121,Awdal,Borama,Borama,11.0,1102.0
+122,Bari,Bossaso,Bossaso,16.0,1603.0
+123,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+124,Togdheer,Burao,Burco,13.0,1302.0
+125,Nugaal,Burtinle,Burtinle,17.0,1701.0
+126,Sool,Aynabo,Caynabo,14.0,1401.0
+127,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+128,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+129,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+130,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+131,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+132,Nugaal,Eyl,Eyl,17.0,1702.0
+133,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+134,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+135,Bari,Qardho,Qardho,16.0,1604.0
+136,Nugaal,Garowe,Garowe,17.0,1703.0
+137,Mudug,Galdogob,Galdogob,18.0,1802.0
+138,Mudug,Galdogob,Galdogob,18.0,1802.0
+139,Mudug,Hobyo,Hobyo,18.0,1804.0
+140,Bari,Iskushuban,Iskushuban,16.0,1605.0
+141,Mudug,Jariiban,Jariiban,18.0,1805.0
+142,,Kandala,Qandala,16.0,1605.0
+143,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+144,Sool,Lasanod,Laas Caanood,14.0,1403.0
+145,Awdal,Lughaye,Lughaye,11.0,1103.0
+146,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+147,Togdheer,Sheikh,Sheikh,13.0,1304.0
+148,Sool,Taleh,Taleex,14.0,1404.0
+149,sool,Xudun,Xudun,14.0,1402.0
+150,Awdal,Zeylac,Zeylac,11.0,1104.0
+151,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+152,Galgaduud,Adado,Cadaado,19.0,1902.0
+153,Middle Shebelle,Adale,Cadale,21.0,2004.0
+154,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+155,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+156,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+157,Bari,Alula,Caluula,16.0,1601.0
+158,Bay,Baidoa,Baidoa,24.0,2401.0
+159,Awdal,Baki,Baki,11.0,1101.0
+160,Middle Shebelle,Balad,Balcad,21.0,2102.0
+161,Gedo,Bardera,Baardheere,26.0,2601.0
+162,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+163,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+164,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+165,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+166,Awdal,Borama,Borama,11.0,1102.0
+167,Bari,Bossaso,Bossaso,16.0,1603.0
+168,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+169,Middle Juba,Buale,Bu'aale,27.0,2701.0
+170,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+171,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+172,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+173,Togdheer,Burao,Burco,13.0,1302.0
+174,Nugaal,Burtinle,Burtinle,17.0,1701.0
+175,Sool,Aynabo,Caynabo,14.0,1401.0
+176,Bay,Diinsor,Diinsoor,24.0,2403.0
+177,Gedo,Dolow,Doolow,26.0,2603.0
+178,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+179,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+180,Bakool,El Barde,Ceel Barde,25.0,2501.0
+181,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+182,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+183,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+184,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+185,Nugaal,Eyl,Eyl,17.0,1702.0
+186,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+187,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+188,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+189,Bari,Qardho,Qardho,16.0,1604.0
+190,Nugaal,Garowe,Garowe,17.0,1703.0
+191,Mudug,Galdogob,Galdogob,18.0,1802.0
+192,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+193,Mudug,Hobyo,Hobyo,18.0,1804.0
+194,Bakool,Hudur,Xudur,25.0,2502.0
+195,Bari,Iskushuban,Iskushuban,16.0,1605.0
+196,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+197,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+198,Mudug,Jariiban,Jariiban,18.0,1805.0
+199,Middle Juba,Jilib,Jilib,27.0,2702.0
+200,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+201,,Kandala,Qandala,16.0,1605.0
+202,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+203,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+204,Sool,Lasanod,Laas Caanood,14.0,1403.0
+205,Awdal,Lughaye,Lughaye,11.0,1103.0
+206,Gedo,Luuq,Luuq,26.0,2606.0
+207,Lower Shebelle,Marka,Marka,23.0,2304.0
+208,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+209,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+210,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+211,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+212,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+213,Middle Juba,Sakow,Saakow,27.0,2703.0
+214,Togdheer,Sheikh,Sheikh,13.0,1304.0
+215,Sool,Taleh,Taleex,14.0,1404.0
+216,Bakool,Waajid,Waajid,25.0,2505.0
+217,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+218,sool,Xudun,Xudun,14.0,1402.0
+219,Awdal,Zeylac,Zeylac,11.0,1104.0
+220,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+221,Galgaduud,Adado,Cadaado,19.0,1902.0
+222,Middle Shebelle,Adale,Cadale,21.0,2004.0
+223,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+224,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+225,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+226,Bari,Alula,Caluula,16.0,1601.0
+227,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+228,Bay,Baidoa,Baidoa,24.0,2401.0
+229,Awdal,Baki,Baki,11.0,1101.0
+230,Middle Shebelle,Balad,Balcad,21.0,2102.0
+231,Gedo,Bardera,Baardheere,26.0,2601.0
+232,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+233,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+234,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+235,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+236,Awdal,Borama,Borama,11.0,1102.0
+237,Bari,Bossaso,Bossaso,16.0,1603.0
+238,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+239,Middle Juba,Buale,Bu'aale,27.0,2701.0
+240,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+241,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+242,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+243,Togdheer,Burao,Burco,13.0,1302.0
+244,Nugaal,Burtinle,Burtinle,17.0,1701.0
+245,Sool,Aynabo,Caynabo,14.0,1401.0
+246,Bay,Diinsor,Diinsoor,24.0,2403.0
+247,Gedo,Dolow,Doolow,26.0,2603.0
+248,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+249,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+250,Bakool,El Barde,Ceel Barde,25.0,2501.0
+251,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+252,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+253,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+254,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+255,Nugaal,Eyl,Eyl,17.0,1702.0
+256,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+257,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+258,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+259,Bari,Qardho,Qardho,16.0,1604.0
+260,Nugaal,Garowe,Garowe,17.0,1703.0
+261,Mudug,Galdogob,Galdogob,18.0,1802.0
+262,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+263,Mudug,Hobyo,Hobyo,18.0,1804.0
+264,Bakool,Hudur,Xudur,25.0,2502.0
+265,Bari,Iskushuban,Iskushuban,16.0,1605.0
+266,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+267,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+268,Mudug,Jariiban,Jariiban,18.0,1805.0
+269,Middle Juba,Jilib,Jilib,27.0,2702.0
+270,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+271,,Kandala,Qandala,16.0,1605.0
+272,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+273,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+274,Sool,Lasanod,Laas Caanood,14.0,1403.0
+275,Awdal,Lughaye,Lughaye,11.0,1103.0
+276,Gedo,Luuq,Luuq,26.0,2606.0
+277,Lower Shebelle,Marka,Marka,23.0,2304.0
+278,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+279,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+280,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+281,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+282,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+283,Middle Juba,Sakow,Saakow,27.0,2703.0
+284,Togdheer,Sheikh,Sheikh,13.0,1304.0
+285,Sool,Taleh,Taleex,14.0,1404.0
+286,Bakool,Waajid,Waajid,25.0,2505.0
+287,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+288,sool,Xudun,Xudun,14.0,1402.0
+289,Awdal,Zeylac,Zeylac,11.0,1104.0
+290,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+291,Nugaal,Garowe,Garowe,17.0,1703.0
+292,Mudug,Galdogob,Galdogob,18.0,1802.0
+293,Nugaal,Garowe,Garowe,17.0,1703.0
+294,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+295,Mudug,Galdogob,Galdogob,18.0,1802.0
+296,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+297,Nugaal,Garowe,Garowe,17.0,1703.0
+298,Mudug,Galdogob,Galdogob,18.0,1802.0
+299,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+300,Mudug,Galdogob,Galdogob,18.0,1802.0
+301,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+302,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+303,Bay,Baidoa,Baidoa,24.0,2401.0
+304,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+305,Bay,Baidoa,Baidoa,24.0,2401.0
+306,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+307,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+308,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+309,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+310,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+311,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+312,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+313,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+314,Middle Shebelle,Adale,Cadale,21.0,2004.0
+315,Middle Shebelle,Balad,Balcad,21.0,2102.0
+316,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+317,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+318,Bay,Baidoa,Baidoa,24.0,2401.0
+319,Bay,Baidoa,Baidoa,24.0,2401.0
+320,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+321,Awdal,Borama,Borama,11.0,1102.0
+322,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+323,Togdheer,Burao,Burco,13.0,1302.0
+324,Sool,Aynabo,Caynabo,14.0,1401.0
+325,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+326,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+327,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+328,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+329,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+330,Sool,Lasanod,Laas Caanood,14.0,1403.0
+331,Awdal,Lughaye,Lughaye,11.0,1103.0
+332,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+333,Togdheer,Sheikh,Sheikh,13.0,1304.0
+334,Sool,Taleh,Taleex,14.0,1404.0
+335,sool,Xudun,Xudun,14.0,1402.0
+336,Awdal,Zeylac,Zeylac,11.0,1104.0
+337,Awdal,Baki,Baki,11.0,1101.0
+338,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+339,Awdal,Borama,Borama,11.0,1102.0
+340,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+341,Togdheer,Burao,Burco,13.0,1302.0
+342,Sool,Aynabo,Caynabo,14.0,1401.0
+343,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+344,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+345,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+346,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+347,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+348,Sool,Lasanod,Laas Caanood,14.0,1403.0
+349,Awdal,Lughaye,Lughaye,11.0,1103.0
+350,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+351,Togdheer,Sheikh,Sheikh,13.0,1304.0
+352,Sool,Taleh,Taleex,14.0,1404.0
+353,sool,Xudun,Xudun,14.0,1402.0
+354,Awdal,Zeylac,Zeylac,11.0,1104.0
+355,Awdal,Baki,Baki,11.0,1101.0
+356,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+357,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+358,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+359,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+360,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+361,Togdheer,Burao,Burco,13.0,1302.0
+362,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+363,Middle Shebelle,Adale,Cadale,21.0,2004.0
+364,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+365,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+366,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+367,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+368,Bay,Baidoa,Baidoa,24.0,2401.0
+369,Middle Shebelle,Balad,Balcad,21.0,2102.0
+370,Gedo,Bardera,Baardheere,26.0,2601.0
+371,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+372,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+373,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+374,Middle Juba,Buale,Bu'aale,27.0,2701.0
+375,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+376,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+377,Bay,Diinsor,Diinsoor,24.0,2403.0
+378,Gedo,Dolow,Doolow,26.0,2603.0
+379,Bakool,El Barde,Ceel Barde,25.0,2501.0
+380,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+381,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+382,Bakool,Hudur,Xudur,25.0,2502.0
+383,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+384,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+385,Middle Juba,Jilib,Jilib,27.0,2702.0
+386,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+387,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+388,Gedo,Luuq,Luuq,26.0,2606.0
+389,Lower Shebelle,Marka,Marka,23.0,2304.0
+390,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+391,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+392,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+393,Middle Juba,Sakow,Saakow,27.0,2703.0
+394,Bakool,Waajid,Waajid,25.0,2505.0
+395,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+396,Awdal,Baki,Baki,11.0,1101.0
+397,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+398,Awdal,Borama,Borama,11.0,1102.0
+399,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+400,Togdheer,Burao,Burco,13.0,1302.0
+401,Sool,Aynabo,Caynabo,14.0,1401.0
+402,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+403,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+404,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+405,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+406,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+407,Sool,Lasanod,Laas Caanood,14.0,1403.0
+408,Awdal,Lughaye,Lughaye,11.0,1103.0
+409,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+410,Togdheer,Sheikh,Sheikh,13.0,1304.0
+411,Sool,Taleh,Taleex,14.0,1404.0
+412,sool,Xudun,Xudun,14.0,1402.0
+413,Awdal,Zeylac,Zeylac,11.0,1104.0
+414,Awdal,Baki,Baki,11.0,1101.0
+415,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+416,Awdal,Borama,Borama,11.0,1102.0
+417,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+418,Togdheer,Burao,Burco,13.0,1302.0
+419,Sool,Aynabo,Caynabo,14.0,1401.0
+420,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+421,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+422,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+423,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+424,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+425,Sool,Lasanod,Laas Caanood,14.0,1403.0
+426,Awdal,Lughaye,Lughaye,11.0,1103.0
+427,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+428,Togdheer,Sheikh,Sheikh,13.0,1304.0
+429,Sool,Taleh,Taleex,14.0,1404.0
+430,sool,Xudun,Xudun,14.0,1402.0
+431,Awdal,Zeylac,Zeylac,11.0,1104.0
+432,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+433,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+434,Gedo,Dolow,Doolow,26.0,2603.0
+435,Gedo,Luuq,Luuq,26.0,2606.0
+436,Gedo,Dolow,Doolow,26.0,2603.0
+437,Awdal,Baki,Baki,11.0,1101.0
+438,Awdal,Borama,Borama,11.0,1102.0
+439,Awdal,Lughaye,Lughaye,11.0,1103.0
+440,Awdal,Zeylac,Zeylac,11.0,1104.0
+441,Awdal,Baki,Baki,11.0,1101.0
+442,Awdal,Borama,Borama,11.0,1102.0
+443,Awdal,Lughaye,Lughaye,11.0,1103.0
+444,Nugaal,Eyl,Eyl,17.0,1702.0
+445,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+446,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+447,Bari,Qardho,Qardho,16.0,1604.0
+448,Nugaal,Garowe,Garowe,17.0,1703.0
+449,Gedo,Dolow,Doolow,26.0,2603.0
+450,Awdal,Baki,Baki,11.0,1101.0
+451,Awdal,Lughaye,Lughaye,11.0,1103.0
+452,Nugaal,Burtinle,Burtinle,17.0,1701.0
+453,Awdal,Baki,Baki,11.0,1101.0
+454,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+455,Awdal,Lughaye,Lughaye,11.0,1103.0
+456,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+457,Nugaal,Garowe,Garowe,17.0,1703.0
+458,Nugaal,Burtinle,Burtinle,17.0,1701.0
+459,Nugaal,Garowe,Garowe,17.0,1703.0
+460,Mudug,Galdogob,Galdogob,18.0,1802.0
+461,Nugaal,Eyl,Eyl,17.0,1702.0
+462,Nugaal,Garowe,Garowe,17.0,1703.0
+463,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+464,Awdal,Baki,Baki,11.0,1101.0
+465,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+466,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+467,Awdal,Lughaye,Lughaye,11.0,1103.0
+468,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+469,Galgaduud,Adado,Cadaado,19.0,1902.0
+470,Middle Shebelle,Adale,Cadale,21.0,2004.0
+471,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+472,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+473,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+474,Bari,Alula,Caluula,16.0,1601.0
+475,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+476,Bay,Baidoa,Baidoa,24.0,2401.0
+477,Awdal,Baki,Baki,11.0,1101.0
+478,Middle Shebelle,Balad,Balcad,21.0,2102.0
+479,Gedo,Bardera,Baardheere,26.0,2601.0
+480,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+481,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+482,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+483,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+484,Awdal,Borama,Borama,11.0,1102.0
+485,Bari,Bossaso,Bossaso,16.0,1603.0
+486,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+487,Middle Juba,Buale,Bu'aale,27.0,2701.0
+488,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+489,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+490,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+491,Togdheer,Burao,Burco,13.0,1302.0
+492,Nugaal,Burtinle,Burtinle,17.0,1701.0
+493,Sool,Aynabo,Caynabo,14.0,1401.0
+494,Bay,Diinsor,Diinsoor,24.0,2403.0
+495,Gedo,Dolow,Doolow,26.0,2603.0
+496,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+497,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+498,Bakool,El Barde,Ceel Barde,25.0,2501.0
+499,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+500,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+501,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+502,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+503,Nugaal,Eyl,Eyl,17.0,1702.0
+504,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+505,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+506,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+507,Bari,Qardho,Qardho,16.0,1604.0
+508,Nugaal,Garowe,Garowe,17.0,1703.0
+509,Mudug,Galdogob,Galdogob,18.0,1802.0
+510,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+511,Mudug,Hobyo,Hobyo,18.0,1804.0
+512,Bakool,Hudur,Xudur,25.0,2502.0
+513,Bari,Iskushuban,Iskushuban,16.0,1605.0
+514,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+515,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+516,Mudug,Jariiban,Jariiban,18.0,1805.0
+517,Middle Juba,Jilib,Jilib,27.0,2702.0
+518,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+519,,Kandala,Qandala,16.0,1605.0
+520,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+521,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+522,Sool,Lasanod,Laas Caanood,14.0,1403.0
+523,Awdal,Lughaye,Lughaye,11.0,1103.0
+524,Gedo,Luuq,Luuq,26.0,2606.0
+525,Lower Shebelle,Marka,Marka,23.0,2304.0
+526,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+527,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+528,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+529,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+530,Middle Juba,Sakow,Saakow,27.0,2703.0
+531,Togdheer,Sheikh,Sheikh,13.0,1304.0
+532,Sool,Taleh,Taleex,14.0,1404.0
+533,Bakool,Waajid,Waajid,25.0,2505.0
+534,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+535,sool,Xudun,Xudun,14.0,1402.0
+536,Awdal,Zeylac,Zeylac,11.0,1104.0
+537,Nugaal,Garowe,Garowe,17.0,1703.0
+538,Gedo,Dolow,Doolow,26.0,2603.0
+539,Gedo,Dolow,Doolow,26.0,2603.0
+540,Bari,Dangorayo,,,
+541,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+542,Bari,Dangorayo,,,
+543,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+544,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+545,Nugaal,Eyl,Eyl,17.0,1702.0
+546,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+547,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+548,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+549,Gedo,Dolow,Doolow,26.0,2603.0
+550,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+551,Gedo,Luuq,Luuq,26.0,2606.0
+552,Gedo,Luuq,Luuq,26.0,2606.0
+553,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+554,Gedo,Dolow,Doolow,26.0,2603.0
+555,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+556,Gedo,Luuq,Luuq,26.0,2606.0
+557,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+558,Gedo,Dolow,Doolow,26.0,2603.0
+559,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+560,Gedo,Luuq,Luuq,26.0,2606.0
+561,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+562,Gedo,Dolow,Doolow,26.0,2603.0
+563,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+564,Gedo,Luuq,Luuq,26.0,2606.0
+565,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+566,Gedo,Dolow,Doolow,26.0,2603.0
+567,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+568,Gedo,Luuq,Luuq,26.0,2606.0
+569,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+570,Gedo,Dolow,Doolow,26.0,2603.0
+571,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+572,Gedo,Luuq,Luuq,26.0,2606.0
+573,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+574,Gedo,Dolow,Doolow,26.0,2603.0
+575,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+576,Gedo,Luuq,Luuq,26.0,2606.0
+577,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+578,Gedo,Dolow,Doolow,26.0,2603.0
+579,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+580,Gedo,Luuq,Luuq,26.0,2606.0
+581,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+582,Togdheer,Burao,Burco,13.0,1302.0
+583,Nugaal,Garowe,Garowe,17.0,1703.0
+584,Gedo,Dolow,Doolow,26.0,2603.0
+585,Togdheer,Burao,Burco,13.0,1302.0
+586,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+587,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+588,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+589,Togdheer,Burao,Burco,13.0,1302.0
+590,Sool,Lasanod,Laas Caanood,14.0,1403.0
+591,Sool,Taleh,Taleex,14.0,1404.0
+592,sool,Xudun,Xudun,14.0,1402.0
+593,Togdheer,Burao,Burco,13.0,1302.0
+594,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+595,Sool,Lasanod,Laas Caanood,14.0,1403.0
+596,Togdheer,Burao,Burco,13.0,1302.0
+597,Sool,Lasanod,Laas Caanood,14.0,1403.0
+598,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+599,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+600,Awdal,Borama,Borama,11.0,1102.0
+601,Awdal,Borama,Borama,11.0,1102.0
+602,Togdheer,Burao,Burco,13.0,1302.0
+603,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+604,Sool,Lasanod,Laas Caanood,14.0,1403.0
+605,Bay,Baidoa,Baidoa,24.0,2401.0
+606,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+607,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+608,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+609,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+610,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+611,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+612,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+613,Awdal,Borama,Borama,11.0,1102.0
+614,Bari,Bossaso,Bossaso,16.0,1603.0
+615,Togdheer,Burao,Burco,13.0,1302.0
+616,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+617,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+618,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+619,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+620,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+621,Galgaduud,Adado,Cadaado,19.0,1902.0
+622,Middle Shebelle,Adale,Cadale,21.0,2004.0
+623,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+624,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+625,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+626,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+627,Bay,Baidoa,Baidoa,24.0,2401.0
+628,Middle Shebelle,Balad,Balcad,21.0,2102.0
+629,Gedo,Bardera,Baardheere,26.0,2601.0
+630,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+631,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+632,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+633,Middle Juba,Buale,Bu'aale,27.0,2701.0
+634,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+635,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+636,Bay,Diinsor,Diinsoor,24.0,2403.0
+637,Gedo,Dolow,Doolow,26.0,2603.0
+638,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+639,Bakool,El Barde,Ceel Barde,25.0,2501.0
+640,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+641,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+642,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+643,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+644,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+645,Mudug,Galdogob,Galdogob,18.0,1802.0
+646,Mudug,Hobyo,Hobyo,18.0,1804.0
+647,Bakool,Hudur,Xudur,25.0,2502.0
+648,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+649,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+650,Mudug,Jariiban,Jariiban,18.0,1805.0
+651,Middle Juba,Jilib,Jilib,27.0,2702.0
+652,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+653,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+654,Gedo,Luuq,Luuq,26.0,2606.0
+655,Lower Shebelle,Marka,Marka,23.0,2304.0
+656,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+657,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+658,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+659,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+660,Middle Juba,Sakow,Saakow,27.0,2703.0
+661,Bakool,Waajid,Waajid,25.0,2505.0
+662,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+663,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+664,Gedo,Bardera,Baardheere,26.0,2601.0
+665,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+666,Gedo,Dolow,Doolow,26.0,2603.0
+667,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+668,Gedo,Bardera,Baardheere,26.0,2601.0
+669,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+670,Gedo,Dolow,Doolow,26.0,2603.0
+671,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+672,Gedo,Bardera,Baardheere,26.0,2601.0
+673,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+674,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+675,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+676,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+677,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+678,Galgaduud,Adado,Cadaado,19.0,1902.0
+679,Middle Shebelle,Adale,Cadale,21.0,2004.0
+680,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+681,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+682,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+683,Bari,Alula,Caluula,16.0,1601.0
+684,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+685,Bay,Baidoa,Baidoa,24.0,2401.0
+686,Awdal,Baki,Baki,11.0,1101.0
+687,Middle Shebelle,Balad,Balcad,21.0,2102.0
+688,Gedo,Bardera,Baardheere,26.0,2601.0
+689,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+690,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+691,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+692,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+693,Awdal,Borama,Borama,11.0,1102.0
+694,Bari,Bossaso,Bossaso,16.0,1603.0
+695,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+696,Middle Juba,Buale,Bu'aale,27.0,2701.0
+697,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+698,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+699,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+700,Togdheer,Burao,Burco,13.0,1302.0
+701,Nugaal,Burtinle,Burtinle,17.0,1701.0
+702,Sool,Aynabo,Caynabo,14.0,1401.0
+703,Bari,Dangorayo,,,
+704,Bay,Diinsor,Diinsoor,24.0,2403.0
+705,Gedo,Dolow,Doolow,26.0,2603.0
+706,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+707,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+708,Bakool,El Barde,Ceel Barde,25.0,2501.0
+709,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+710,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+711,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+712,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+713,Nugaal,Eyl,Eyl,17.0,1702.0
+714,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+715,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+716,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+717,Bari,Qardho,Qardho,16.0,1604.0
+718,Nugaal,Garowe,Garowe,17.0,1703.0
+719,Mudug,Galdogob,Galdogob,18.0,1802.0
+720,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+721,Mudug,Hobyo,Hobyo,18.0,1804.0
+722,Bakool,Hudur,Xudur,25.0,2502.0
+723,Bari,Iskushuban,Iskushuban,16.0,1605.0
+724,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+725,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+726,Mudug,Jariiban,Jariiban,18.0,1805.0
+727,Middle Juba,Jilib,Jilib,27.0,2702.0
+728,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+729,,Kandala,Qandala,16.0,1605.0
+730,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+731,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+732,Sool,Lasanod,Laas Caanood,14.0,1403.0
+733,Awdal,Lughaye,Lughaye,11.0,1103.0
+734,Gedo,Luuq,Luuq,26.0,2606.0
+735,Lower Shebelle,Marka,Marka,23.0,2304.0
+736,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+737,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+738,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+739,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+740,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+741,Middle Juba,Sakow,Saakow,27.0,2703.0
+742,Togdheer,Sheikh,Sheikh,13.0,1304.0
+743,Sool,Taleh,Taleex,14.0,1404.0
+744,Bakool,Waajid,Waajid,25.0,2505.0
+745,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+746,sool,Xudun,Xudun,14.0,1402.0
+747,Awdal,Zeylac,Zeylac,11.0,1104.0
+748,Bari,Alula,Caluula,16.0,1601.0
+749,Awdal,Baki,Baki,11.0,1101.0
+750,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+751,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+752,Awdal,Borama,Borama,11.0,1102.0
+753,Bari,Bossaso,Bossaso,16.0,1603.0
+754,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+755,Togdheer,Burao,Burco,13.0,1302.0
+756,Nugaal,Burtinle,Burtinle,17.0,1701.0
+757,Sool,Aynabo,Caynabo,14.0,1401.0
+758,Bari,Dangorayo,,,
+759,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+760,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+761,Nugaal,Eyl,Eyl,17.0,1702.0
+762,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+763,Bari,Qardho,Qardho,16.0,1604.0
+764,Nugaal,Garowe,Garowe,17.0,1703.0
+765,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+766,Bari,Iskushuban,Iskushuban,16.0,1605.0
+767,,Kandala,Qandala,16.0,1605.0
+768,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+769,Sool,Lasanod,Laas Caanood,14.0,1403.0
+770,Awdal,Lughaye,Lughaye,11.0,1103.0
+771,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+772,Togdheer,Sheikh,Sheikh,13.0,1304.0
+773,Sool,Taleh,Taleex,14.0,1404.0
+774,sool,Xudun,Xudun,14.0,1402.0
+775,Awdal,Zeylac,Zeylac,11.0,1104.0
+776,Bari,Alula,Caluula,16.0,1601.0
+777,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+778,Bari,Bossaso,Bossaso,16.0,1603.0
+779,Nugaal,Burtinle,Burtinle,17.0,1701.0
+780,Bari,Dangorayo,,,
+781,Nugaal,Eyl,Eyl,17.0,1702.0
+782,Bari,Qardho,Qardho,16.0,1604.0
+783,Nugaal,Garowe,Garowe,17.0,1703.0
+784,Bari,Iskushuban,Iskushuban,16.0,1605.0
+785,,Kandala,Qandala,16.0,1605.0
+786,Awdal,Baki,Baki,11.0,1101.0
+787,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+788,Awdal,Borama,Borama,11.0,1102.0
+789,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+790,Togdheer,Burao,Burco,13.0,1302.0
+791,Sool,Aynabo,Caynabo,14.0,1401.0
+792,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+793,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+794,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+795,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+796,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+797,Sool,Lasanod,Laas Caanood,14.0,1403.0
+798,Awdal,Lughaye,Lughaye,11.0,1103.0
+799,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+800,Togdheer,Sheikh,Sheikh,13.0,1304.0
+801,Sool,Taleh,Taleex,14.0,1404.0
+802,sool,Xudun,Xudun,14.0,1402.0
+803,Awdal,Zeylac,Zeylac,11.0,1104.0
+804,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+805,Galgaduud,Abudwak,Cabudwaaq,19.0,1901.0
+806,Galgaduud,Adado,Cadaado,19.0,1902.0
+807,Middle Shebelle,Adale,Cadale,21.0,2004.0
+808,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+809,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+810,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+811,Bari,Alula,Caluula,16.0,1601.0
+812,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+813,Bay,Baidoa,Baidoa,24.0,2401.0
+814,Awdal,Baki,Baki,11.0,1101.0
+815,Middle Shebelle,Balad,Balcad,21.0,2102.0
+816,Gedo,Bardera,Baardheere,26.0,2601.0
+817,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+818,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+819,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+820,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+821,Awdal,Borama,Borama,11.0,1102.0
+822,Bari,Bossaso,Bossaso,16.0,1603.0
+823,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+824,Middle Juba,Buale,Bu'aale,27.0,2701.0
+825,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+826,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+827,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+828,Togdheer,Burao,Burco,13.0,1302.0
+829,Nugaal,Burtinle,Burtinle,17.0,1701.0
+830,Sool,Aynabo,Caynabo,14.0,1401.0
+831,Bari,Dangorayo,,,
+832,Bay,Diinsor,Diinsoor,24.0,2403.0
+833,Gedo,Dolow,Doolow,26.0,2603.0
+834,Galguduud,Dusa Mareb,Dhuusamarreeb,19.0,1903.0
+835,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+836,Bakool,El Barde,Ceel Barde,25.0,2501.0
+837,Galgaduud,El Buur,Ceel Buur,19.0,1904.0
+838,Galgaduud,El Der,Ceel Buur,19.0,1904.0
+839,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+840,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+841,Nugaal,Eyl,Eyl,17.0,1702.0
+842,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+843,Mudug,Gaalkacyo,Galkaacyo,18.0,1801.0
+844,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+845,Bari,Qardho,Qardho,16.0,1604.0
+846,Nugaal,Garowe,Garowe,17.0,1703.0
+847,Mudug,Galdogob,Galdogob,18.0,1802.0
+848,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+849,Mudug,Hobyo,Hobyo,18.0,1804.0
+850,Bakool,Hudur,Xudur,25.0,2502.0
+851,Bari,Iskushuban,Iskushuban,16.0,1605.0
+852,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+853,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+854,Mudug,Jariiban,Jariiban,18.0,1805.0
+855,Middle Juba,Jilib,Jilib,27.0,2702.0
+856,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+857,,Kandala,Qandala,16.0,1605.0
+858,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+859,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+860,Sool,Lasanod,Laas Caanood,14.0,1403.0
+861,Awdal,Lughaye,Lughaye,11.0,1103.0
+862,Gedo,Luuq,Luuq,26.0,2606.0
+863,Lower Shebelle,Marka,Marka,23.0,2304.0
+864,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+865,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+866,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+867,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+868,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+869,Middle Juba,Sakow,Saakow,27.0,2703.0
+870,Togdheer,Sheikh,Sheikh,13.0,1304.0
+871,Sool,Taleh,Taleex,14.0,1404.0
+872,Bakool,Waajid,Waajid,25.0,2505.0
+873,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+874,sool,Xudun,Xudun,14.0,1402.0
+875,Awdal,Zeylac,Zeylac,11.0,1104.0
+876,Middle Shebelle,Adale,Cadale,21.0,2004.0
+877,Middle Shebelle,Aden Yabal,Adan Yabaal,21.0,2101.0
+878,Lower Shebelle,Afgoye,Afgooye,23.0,2301.0
+879,Lower Juba,Afmadow,Afmadow,28.0,2801.0
+880,Bari,Alula,Caluula,16.0,1601.0
+881,Lowe Juba,Badhadhe,Badhaadhe,28.0,2802.0
+882,Bay,Baidoa,Baidoa,24.0,2401.0
+883,Awdal,Baki,Baki,11.0,1101.0
+884,Middle Shebelle,Balad,Balcad,21.0,2102.0
+885,Gedo,Bardera,Baardheere,26.0,2601.0
+886,Gedo,Beled Hawo,Belet Xaawo,26.0,2602.0
+887,Hiran,BeledWeyne,Belet Weyne,20.0,2001.0
+888,Bari,Bender Beila,Bandarbayla,16.0,1602.0
+889,Woqooyi Galbeed,Berbera,Berbera,12.0,1201.0
+890,Awdal,Borama,Borama,11.0,1102.0
+891,Bari,Bossaso,Bossaso,16.0,1603.0
+892,Lower Shebelle,Barawa,Baraawe,23.0,2302.0
+893,Middle Juba,Buale,Bu'aale,27.0,2701.0
+894,Togdheer,Buhoodle,Buuhoodle,13.0,1301.0
+895,Hiran,Buloburde,Bulo Burti,20.0,2002.0
+896,Bay,Buur Hakaba,Buur Hakaba,24.0,2402.0
+897,Togdheer,Burao,Burco,13.0,1302.0
+898,Nugaal,Burtinle,Burtinle,17.0,1701.0
+899,Sool,Aynabo,Caynabo,14.0,1401.0
+900,Bari,Dangorayo,,,
+901,Bay,Diinsor,Diinsoor,24.0,2403.0
+902,Gedo,Dolow,Doolow,26.0,2603.0
+903,Sannag,El Afweyn,Ceel Afweyn,15.0,1501.0
+904,Bakool,El Barde,Ceel Barde,25.0,2501.0
+905,Gedo,Ceel Waaq,El Waq,26.0,2604.0
+906,Sannag,Erigavo,Ceerigaabo,15.0,1502.0
+907,Nugaal,Eyl,Eyl,17.0,1702.0
+908,Woqooyi Galbeed,Gabiley,Gabiley,12.0,1202.0
+909,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
+910,Bari,Qardho,Qardho,16.0,1604.0
+911,Nugaal,Garowe,Garowe,17.0,1703.0
+912,Woqooyi Galbeed,Hargeysa,Hargeysa,12.0,1203.0
+913,Bakool,Hudur,Xudur,25.0,2502.0
+914,Bari,Iskushuban,Iskushuban,16.0,1605.0
+915,Hiraan,Jalalaqsi,Jalalaqsi,20.0,2003.0
+916,Lower Juba,Jamaame,Jamaame,28.0,2803.0
+917,Middle Juba,Jilib,Jilib,27.0,2702.0
+918,Middle shabelle,Jowhar,Jowhar,21.0,2103.0
+919,,Kandala,Qandala,16.0,1605.0
+920,Lower Juba,Kismayo,Kismayo,28.0,2804.0
+921,Sanaag,Las Khorey,Laasqoray,15.0,1503.0
+922,Sool,Lasanod,Laas Caanood,14.0,1403.0
+923,Awdal,Lughaye,Lughaye,11.0,1103.0
+924,Gedo,Luuq,Luuq,26.0,2606.0
+925,Lower Shebelle,Marka,Marka,23.0,2304.0
+926,Benadir,Mogadishu,Mogadishu,22.0,2201.0
+927,Togdheer,Owdweyne,Owdweyne,13.0,1303.0
+928,Bay,Qansah Dere,Qansax Dheere,24.0,2404.0
+929,Bakool,Rab Dhuure,Rab Dhuure,25.0,2503.0
+930,Lower Shebelle,Sablale,Sablaale,23.0,2306.0
+931,Middle Juba,Sakow,Saakow,27.0,2703.0
+932,Togdheer,Sheikh,Sheikh,13.0,1304.0
+933,Sool,Taleh,Taleex,14.0,1404.0
+934,Bakool,Waajid,Waajid,25.0,2505.0
+935,Lower Shebelle,Wanla Weyne,Wanle Weyne,23.0,2307.0
+936,Sool,Xudun,Xudun,14.0,1402.0
+937,Awdal,Zeylac,Zeylac,11.0,1104.0
+938,Gedo,Garbaharey,Garbahaarey,26.0,2605.0
