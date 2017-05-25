@@ -4,18 +4,19 @@ var config = {
     title:"Somalia Cash 3W",
     description:"CASH Sector Who is doing What, Where in Somalia Famine Response",
     // data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/1E8mgMNLt6IeECH5u8ZG7HCbV_3q5Y-SQ2Y8xyKoomQs/edit?usp=sharing&strip-headers=on",
-    data: "data/som-last-cash.json",
+    data: "data/updated-cash.json",
     whoFieldName:"organization",
     whatFieldName:"cluster",
     whereFieldName:"district_code",
     sum: true,
-    sumField:"beneficiaries",
+    sumField:"cash_transfered",
     geo:"data/Somalia_District_Polygon.json",
     joinAttribute:"DIS_CODE",
     nameAttribute:"DIST_NAME",
     color:"#03a9f4",
     mechaField: "mechanism",
-    condField: "conditionality"
+    condField: "conditionality",
+    restField: "restriction"
 };
 
 //function to generate the 3W component
@@ -35,6 +36,7 @@ function generate3WComponent(config,data,geom){
 
     var filterMechanismPie = dc.pieChart('#filterMecha') ;
     var filtercondPie = dc.pieChart('#filtercond') ;
+    var filterRestPie = dc.pieChart('#filterRestriction');
 
     var cf = crossfilter(data);
 
@@ -44,6 +46,7 @@ function generate3WComponent(config,data,geom){
 
     var dimMecha = cf.dimension(function(d){ return d[config.mechaField]; });
     var dimCond = cf.dimension(function(d){ return d[config.condField]; });
+    var dimRest = cf.dimension(function(d){ return d[config.restField]; });
 
     // var whoGroup = whoDimension.group();
     // var whatGroup = whatDimension.group();
@@ -51,6 +54,7 @@ function generate3WComponent(config,data,geom){
 
     var groupMecha = dimMecha.group();
     var groupCond = dimCond.group();
+    var groupRest = dimRest.group();
 
     if(config.sum){
         var whoGroup = whoDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
@@ -70,13 +74,20 @@ function generate3WComponent(config,data,geom){
                       .innerRadius(30)
                       .dimension(dimMecha)
                       .group(groupMecha);
-                      
+
     filtercondPie.width(190)
                   .height(190)
                   .radius(80)
                   .innerRadius(30)
                   .dimension(dimCond)
                   .group(groupCond);
+
+    filterRestPie.width(190)
+                 .height(190)
+                 .radius(80)
+                 .innerRadius(30)
+                 .dimension(dimRest)
+                 .group(groupRest) ;
 
     whoChart.width($('#hxd-3W-who').width()).height(400)
             .dimension(whoDimension)
@@ -135,11 +146,10 @@ function generate3WComponent(config,data,geom){
     zoomToGeom(geom);
 
     if(config.sum){
-        var axisText = config.sumField.substr(1);
+        var axisText = config.sumField.substr(0);
     } else {
         var axisText = 'Activities';
     }
-
 
 
     var g = d3.selectAll('#hdx-3W-who').select('svg').append('g');
