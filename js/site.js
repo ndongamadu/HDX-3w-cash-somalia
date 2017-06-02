@@ -1,28 +1,31 @@
 //configuration object
 
 var config = {
-    title:"Somalia Cash 3W",
-    description:"CASH Sector Who is doing What, Where in Somalia Famine Response",
-    // data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/138BdIVkk0VNTXKaaHsCdTrfaxjWlui8rXgnZ0vtQj4g/edit?usp=sharing&strip-headers=on",
-    data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/1E8mgMNLt6IeECH5u8ZG7HCbV_3q5Y-SQ2Y8xyKoomQs/edit?usp=sharing&strip-headers=on",
-    whoFieldName:"#org",
-    whatFieldName:"#sector",
-    whereFieldName:"#adm2+code",
+    title: "Somalia Cash 3W",
+    description: "CASH Sector Who is doing What, Where in Somalia Famine Response",
+    data: "data/updated-cash.json",
+    whoFieldName: "organization",
+    whatFieldName: "cluster",
+    whereFieldName: "district_code",
     sum: true,
-    sumField:"#targeted",
-    geo:"data/Somalia_District_Polygon.json",
-    joinAttribute:"DIS_CODE",
-    nameAttribute:"DIST_NAME",
-    color:"#03a9f4"
+    sumField: "cash_transfered",
+    geo: "data/Somalia_District_Polygon.json",
+    joinAttribute: "DIS_CODE",
+    nameAttribute: "DIST_NAME",
+    color: "#03a9f4",
+    mechaField: "mechanism",
+    condField: "conditionality",
+    restField: "restriction",
+    ruralField: "ruralUrban"
 };
 
 //function to generate the 3W component
 //data is the whole 3W Excel data set
 //geom is geojson file
 
-function generate3WComponent(config,data,geom){
-
-    var lookup = genLookup(geom,config);
+function generate3WComponent(config, data, geom) {
+    
+    var lookup = genLookup(geom, config);
 
     $('#title').html(config.title);
     $('#description').html(config.description);
@@ -31,14 +34,34 @@ function generate3WComponent(config,data,geom){
     var whatChart = dc.rowChart('#hdx-3W-what');
     var whereChart = dc.leafletChoroplethChart('#hdx-3W-where');
 
+    var filterMechanismPie = dc.pieChart('#filterMecha');
+    var filtercondPie = dc.pieChart('#filtercond');
+    var filterRestPie = dc.pieChart('#filterRestriction');
+    var filterRuralUrban = dc.pieChart('#filterRural');
+
     var cf = crossfilter(data);
 
-    var whoDimension = cf.dimension(function(d){ return d[config.whoFieldName]; });
-    var whatDimension = cf.dimension(function(d){ return d[config.whatFieldName]; });
-    var whereDimension = cf.dimension(function(d){ return d[config.whereFieldName]; });
+    var whoDimension = cf.dimension(function(d) { return d[config.whoFieldName]; });
+    var whatDimension = cf.dimension(function(d) { return d[config.whatFieldName]; });
+    var whereDimension = cf.dimension(function(d) { return d[config.whereFieldName]; });
+
+    var dimMecha = cf.dimension(function(d) { return d[config.mechaField]; });
+    var dimCond = cf.dimension(function(d) { return d[config.condField]; });
+    var dimRest = cf.dimension(function(d) { return d[config.restField]; });
+    var dimRuralUrban = cf.dimension( function(d) { return d[config.ruralField]; });
+
+    // var whoGroup = whoDimension.group();
+    // var whatGroup = whatDimension.group();
+    // var whereGroup = whereDimension.group();
+
+    var groupMecha = dimMecha.group();
+    var groupCond = dimCond.group();
+    var groupRest = dimRest.group();
+    var groupRuralUrban = dimRuralUrban.group();
+
     if(config.sum){
         var whoGroup = whoDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
-        var whatGroup = whatDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
+        var whatGroup = whatDimension.group().reduceSum(function(d) { return parseInt(d[config.sumField]); });
         var whereGroup = whereDimension.group().reduceSum(function(d){ return parseInt(d[config.sumField]); });
     } else {
         var whoGroup = whoDimension.group();
@@ -48,6 +71,34 @@ function generate3WComponent(config,data,geom){
 
     var all = cf.groupAll();
 
+    filterMechanismPie.width(190)
+                      .height(190)
+                      .radius(80)
+                      .innerRadius(30)
+                      .dimension(dimMecha)
+                      .group(groupMecha);
+
+    filtercondPie.width(190)
+                  .height(190)
+                  .radius(80)
+                  .innerRadius(30)
+                  .dimension(dimCond)
+                  .group(groupCond);
+
+    filterRestPie.width(190)
+                 .height(190)
+                 .radius(80)
+                 .innerRadius(30)
+                 .dimension(dimRest)
+                 .group(groupRest) ;
+
+    filterRuralUrban.width(190)
+                 .height(190)
+                 .radius(80)
+                 .innerRadius(30)
+                 .dimension(dimRuralUrban)
+                 .group(groupRuralUrban) ;
+    
     whoChart.width($('#hxd-3W-who').width()).height(400)
             .dimension(whoDimension)
             .group(whoGroup)
@@ -105,11 +156,10 @@ function generate3WComponent(config,data,geom){
     zoomToGeom(geom);
 
     if(config.sum){
-        var axisText = config.sumField.substr(1);
+        var axisText = config.sumField.substr(0);
     } else {
         var axisText = 'Activities';
     }
-
 
 
     var g = d3.selectAll('#hdx-3W-who').select('svg').append('g');
@@ -191,7 +241,7 @@ var geomCall = $.ajax({
 //when both ready construct 3W
 
 $.when(dataCall, geomCall).then(function(dataArgs, geomArgs){
-    var data = hxlProxyToJSON(dataArgs[0]);
+    var data = dataArgs[0];//hxlProxyToJSON(dataArgs[0]);
     var geom = geomArgs[0];
     geom.features.forEach(function(e){
         e.properties[config.joinAttribute] = String(e.properties[config.joinAttribute]);
