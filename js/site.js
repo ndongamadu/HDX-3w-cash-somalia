@@ -68,10 +68,21 @@ function generate3WComponent(config, data, geom) {
     // var whatGroup = whatDimension.group();
     // var whereGroup = whereDimension.group();
 
-    var groupMecha = dimMecha.group();
-    var groupCond = dimCond.group();
-    var groupRest = dimRest.group();
-    var groupRuralUrban = dimRuralUrban.group();
+    var groupMecha = dimMecha.group().reduceSum(function (d) {
+        return parseInt(d[config.sumField]);
+    });
+
+    var groupCond = dimCond.group().reduceSum(function (d) {
+        return parseInt(d[config.sumField]);
+    });
+
+    var groupRest = dimRest.group().reduceSum(function (d) {
+        return parseInt(d[config.sumField]);
+    });
+
+    var groupRuralUrban = dimRuralUrban.group().reduceSum(function (d) {
+        return parseInt(d[config.sumField]);
+    });
 
     if (config.sum) {
         var whoGroup = whoDimension.group().reduceSum(function (d) {
@@ -96,28 +107,48 @@ function generate3WComponent(config, data, geom) {
         .radius(80)
         .innerRadius(30)
         .dimension(dimMecha)
-        .group(groupMecha);
+        .group(groupMecha)
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
+        });
 
     filtercondPie.width(190)
         .height(190)
         .radius(80)
         .innerRadius(30)
         .dimension(dimCond)
-        .group(groupCond);
+        .group(groupCond)
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
+        });
 
     filterRestPie.width(190)
         .height(190)
         .radius(80)
         .innerRadius(30)
         .dimension(dimRest)
-        .group(groupRest);
+        .group(groupRest)
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
+        });
 
     filterRuralUrban.width(190)
         .height(190)
         .radius(80)
         .innerRadius(30)
         .dimension(dimRuralUrban)
-        .group(groupRuralUrban);
+        .group(groupRuralUrban)
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
+        });
 
     whoChart.width($('#hxd-3W-who').width()).height(400)
         .dimension(whoDimension)
@@ -130,6 +161,11 @@ function generate3WComponent(config, data, geom) {
         .colors([config.color])
         .colorAccessor(function (d, i) {
             return 0;
+        })
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
         })
         .xAxis().ticks(5);
 
@@ -144,6 +180,11 @@ function generate3WComponent(config, data, geom) {
         .colors([config.color])
         .colorAccessor(function (d, i) {
             return 0;
+        })
+        .renderTitle(true)
+        .title(function (d) {
+            text = d.key + " | Beneficiaries : " + d.value;
+            return text.toUpperCase();
         })
         .xAxis().ticks(5)
 
