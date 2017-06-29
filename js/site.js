@@ -1,22 +1,23 @@
 //configuration object
 
 var config = {
-    title: "Somalia Cash 3W",
-    description: "CASH Sector Who is doing What, Where in Somalia Famine Response",
+    title: "Somalia Cash Programming - May 2017",
+    description: "CASH Sector Who is doing What, Where in Somalia Famine Response.",
     data: "data/cash.json",
-    whoFieldName: "organization",
-    whatFieldName: "cluster",
-    whereFieldName: "district_code",
+    whoFieldName: "Organization",
+    whatFieldName: "Cluster",
+    whereFieldName: "DIS_CODE",
     sum: true,
-    sumField: "Beneficiaries",
+    sumField: "Individuals",
     geo: "data/Somalia_District_Polygon.json",
     joinAttribute: "DIS_CODE",
     nameAttribute: "DIST_NAME",
     color: "#03a9f4",
-    mechaField: "mechanism",
-    condField: "conditionality",
-    restField: "restriction",
-    ruralField: "ruralUrban"
+    mechaField: "Delivery mechanism",
+    condField: "Conditionality",
+    restField: "Restriction",
+    ruralField: "RURAL/URBAN",
+    cashTransferedField: "Transfer value"
 };
 
 //function to generate the 3W component
